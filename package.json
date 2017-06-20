@@ -1,0 +1,24 @@
+{
+  "name": "userdirectory",
+  "version": "1.0.0",
+  "description": "using express to make a directory",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heymichaelw/userDirectory.git"
+  },
+  "author": "Michael Waites",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heymichaelw/userDirectory/issues"
+  },
+  "homepage": "https://github.com/heymichaelw/userDirectory#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mustache": "^2.3.0",
+    "mustache-express": "^1.2.4"
+  }
+}
