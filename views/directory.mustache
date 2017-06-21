@@ -10,6 +10,9 @@
       {{#users}}
         <div class="user-entry">
           <img src='{{avatar}}' alt="">
+          <p class="user-name">{{name}}</p>
+
+          <p class="user-info"><span>{{job}}{{^job}}{{/job}} {{company}}{{^company}}<span class="available">Available for hire</span>{{/company}}</span></p>
         </div>
       {{/users}}
     </div>
