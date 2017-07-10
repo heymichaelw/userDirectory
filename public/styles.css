@@ -27,3 +27,7 @@ p{
 .user-header{
   display: flex;
 }
+
+.user-body{
+  display: flex;
+}

@@ -18,6 +18,14 @@
           <p class="contact">{{email}} | {{phone}}</p>
         </div>
       </div>
+      <div class="user-body">
+        <p>{{#university}}<span class="education">Education</span>{{university}}{{/university}}</p>
+        <p><span class="skills">Skills</span><ul>
+          {{#skills}}
+          <li>{{.}}</li>
+          {{/skills}}
+        </ul></p>
+      </div>
     </div>
   {{/model}}
   </body>
